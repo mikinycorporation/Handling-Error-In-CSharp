@@ -2,10 +2,7 @@
 
 ```mermaid
 graph TD
-  A(Exception) --> B(System)
-  A(Exception) --> C(System Data)
-  A(Exception) --> D(System IO)
-  click B "./all-exception/system.md" "System"
-  click C "./all-exception/system-data.md" "System Data"
-  click D "./all-exception/system-io.md" "System IO"
+  A(Exception) --> B[<a href='https://github.com/mikinycorporation/Handling-Error-In-CSharp/blob/main/all-exception/system.md'>System</a>]
+  A(Exception) --> C[<a href='https://github.com/mikinycorporation/Handling-Error-In-CSharp/blob/main/all-exception/system-data.md'>System Data</a>]
+  A(Exception) --> D[<a href='https://github.com/mikinycorporation/Handling-Error-In-CSharp/blob/main/all-exception/system-io.md'>System IO</a>]
 ```
